@@ -27,7 +27,7 @@ class AutonomousDrive(Node):
         ])
 
         # 2. CHARGEMENT SÉCURISÉ
-        path = 'autonomous_drive.py'
+        path = 'imita12_actor.pth'
         try:
             # On charge les poids uniquement pour ignorer la config incompatible
             self.model.load_weights(path)
