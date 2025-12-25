@@ -27,7 +27,7 @@ class AutonomousDrive(Node):
         ])
 
         # 2. CHARGEMENT SÉCURISÉ
-        path = '/home/user/fastbot_autonomous3.keras'
+        path = 'autonomous_drive.py'
         try:
             # On charge les poids uniquement pour ignorer la config incompatible
             self.model.load_weights(path)
